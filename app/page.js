@@ -1,5 +1,11 @@
-export default function Home(){
-  return(
-    <h1>Hello</h1>
+import Result from "@/components/result";
+
+export default function Home() {
+
+  return (
+    <>
+      <Result />
+    </>
+
   )
 }
